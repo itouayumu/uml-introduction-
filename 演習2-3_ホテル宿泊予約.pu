@@ -1,0 +1,10 @@
+@startuml ユースケース図
+    actor 利用者 as u1 #DDDDDD;line:black;line.bold;
+rectangle ログイン {
+    
+usecase 予約 as a1
+usecase ログイン as a2
+}
+u1->a1
+a1 <. a2 : << include >>
+@enduml

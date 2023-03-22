@@ -1,0 +1,6 @@
+@startuml ユースケース図
+left to right direction
+actor 経営者 as u1 #DDDDDD;line:black;line.bold;
+actor ホテル従業員 as u2 #DDDDDD;line:black;line.bold;
+u1 --|>u2
+@enduml
