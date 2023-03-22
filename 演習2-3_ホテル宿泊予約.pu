@@ -6,5 +6,5 @@ usecase 予約 as a1
 usecase ログイン as a2
 }
 u1->a1
-a1 <. a2 : << include >>
+a1 .> a2 : << include >>
 @enduml

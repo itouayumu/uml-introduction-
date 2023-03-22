@@ -1,9 +1,12 @@
 @startuml ユースケース図
      actor 利用者 as u1 #DDDDDD;line:black;line.bold;
-rectangle 価格判別 {
-usecase 予約 as a1
-usecase (<u>キャンペーン価格</u>\n拡張点\nキャンペーン期間中) as a2
+rectangle ホテル宿泊予約 {
+usecase キャンペーン as a1
+usecase (<u>予約</u>\n拡張点\nキャンペーン期間) as a2
+usecase ログイン as a3
+
 }
-u1-->a1
-a2 .>(a1) : <<extend>>
+u1-->a2
+a1 .>(a2) : <<extend>>
+a2 .> a3 : << include >>
 @enduml
