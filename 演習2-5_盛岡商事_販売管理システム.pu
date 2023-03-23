@@ -4,7 +4,7 @@
      actor 出荷担当者 as u1 #DDDDDD;line:black;line.bold;
     
 
-rectangle 販売管理 {
+rectangle 販売管理システム {
 
 usecase 注文商品確認する as a2
 usecase 出荷状況登録する as a3
