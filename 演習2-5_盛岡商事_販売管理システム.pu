@@ -1,0 +1,18 @@
+@startuml ユースケース図
+' left to right direction
+
+     actor 出荷担当者 as u1 #DDDDDD;line:black;line.bold;
+    
+
+rectangle 販売管理 {
+
+usecase 注文商品確認する as a2
+usecase 出荷状況登録する as a3
+
+}
+
+
+
+u1-->a2
+u1-->a3
+@enduml

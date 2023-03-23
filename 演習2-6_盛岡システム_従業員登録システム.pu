@@ -1,0 +1,21 @@
+@startuml ユースケース図
+' left to right direction'
+
+     actor 人事担当者 as u1 #DDDDDD;line:black;line.bold;
+     actor 社員 as u2 #DDDDDD;line:black;line.bold;
+
+
+rectangle 従業員登録 {
+usecase 従業員情報登録を行う as a1
+usecase 情報参照を行う as a2
+
+usecase 情報変更を行う as a4
+}
+
+
+u1--->a1
+u2-->a2
+
+u1-->a4
+
+@enduml
