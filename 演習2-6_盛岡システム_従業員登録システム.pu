@@ -7,12 +7,13 @@
 
 rectangle 従業員登録システム {
 usecase 従業員情報登録を行う as a1
-usecase 従業員の情報参照を行う as a2
 
-usecase 従業員の情報変更を行う as a4
+usecase 従業員の情報変更を行う as a2
+usecase 従業員の情報参照を行う as a3
 }
 
-
-
+u1-->a1
+u1-->a2
+u2-->a3
 
 @enduml
