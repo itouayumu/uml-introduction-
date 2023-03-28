@@ -28,7 +28,7 @@ class Employee {
     +getid():int
     +getname(name:String):void
     +getname():String
-    +getDept(dept:String):String
+    +getDept(dept:String):void
     +getDept():String
 
 }
