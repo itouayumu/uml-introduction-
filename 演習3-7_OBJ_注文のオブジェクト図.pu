@@ -1,0 +1,25 @@
+@startuml
+left to right direction
+object "<u>高橋洋平: 顧客クラス</u>" as k0 {
+
+
+}
+object "<u>高田利恵: 顧客クラス</u>" as k1 {
+
+}
+object "<u>大坪直之 : 顧客クラス</u>" as k2{
+
+}
+object "<u>テレビ:商品クラス</u>" as k3{
+    型式V12345   
+}
+object "<u>冷蔵庫:商品クラス</u>" as k4{   
+    型式R8765
+}
+object "<u>プロジェクター:商品クラス</u>" as k5{   
+    型式P1122
+}
+k0--k3:２台
+k0--k4
+k1--k4
+@enduml

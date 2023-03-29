@@ -1,0 +1,21 @@
+@startuml
+left to right direction
+object "<u>車: 車クラス</u>" as k0 {
+
+}
+object "<u>前輪１: タイヤクラス</u>" as k1 {
+
+}
+object "<u>前輪２: タイヤクラス</u>" as k2 {
+}
+object "<u>後輪１: タイヤクラス</u>" as k3 {
+}
+object "<u>後輪2: タイヤクラス</u>" as k4 {
+
+}
+
+k0 -- k1
+k0 -- k2
+k0 -- k3
+k0 -- k4
+@enduml
