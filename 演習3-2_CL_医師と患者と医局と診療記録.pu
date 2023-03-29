@@ -1,0 +1,9 @@
+@startuml
+
+class 医師{}
+class 医局{}
+class 患者{}
+医局 "*" --"*"医師 :所属
+医師 "1"--"*"患者 :担当医
+
+@enduml
