@@ -1,32 +1,28 @@
 @startuml
 left to right direction
-object "<u>高橋洋平: 顧客</u>" as k0 {
+object "<u>高橋洋平: 重要顧客</u>" as k0 {
 
 }
 
 object "<u>注文: 注文クラス</u>" as k6{
 }
-object "<u>高田利恵: 顧客</u>" as k1 {
+object "<u>高田利恵: 重要顧客</u>" as k1 {
 
 }
-object "<u>大坪直之 : 顧客</u>" as k2{
+object "<u>大坪直之 : 重要顧客</u>" as k2{
 
 }
-object "<u>テレビ:商品</u>" as k3{
+object "<u>テレビ:注文クラス</u>" as k3{
     型式V12345   
 }
-object "<u>冷蔵庫:商品</u>" as k4{   
+object "<u>冷蔵庫:注文クラス</u>" as k4{   
     型式R8765
 }
-object "<u>プロジェクター:商品</u>" as k5{   
+object "<u>プロジェクター:注文クラス</u>" as k5{   
     型式P1122
 }
-object "<u>重要顧客:重要顧客クラス</u>" as k7{   
-    
-}
-k7--k0
-k7--k1
-k7--k2
+
+
 k0--k6
 k1--k6
 k6--k3
