@@ -1,5 +1,5 @@
 @startuml
-class 会員{}
+left to right direction
 class 利用者{
 - 名前
 - 住所
@@ -18,8 +18,8 @@ class 予約{
 - 滞在期間
 - 値段
 }
-利用者 -down-o 会員
-ホテル"1"-down-"1..*"部屋
-会員-down-予約
+利用者-->ホテル:宿泊する >
+ホテル"1" o-down-"1..*"部屋
+利用者-->予約:予約する >
 予約 "*"-down-"*"部屋
 @enduml
