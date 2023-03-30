@@ -1,5 +1,5 @@
 @startuml
-
+left to right direction
 class 医師{}
 class 医局{}
 class 患者{}
