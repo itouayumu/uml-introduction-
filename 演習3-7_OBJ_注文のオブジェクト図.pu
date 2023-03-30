@@ -2,7 +2,9 @@
 left to right direction
 object "<u>高橋洋平: 顧客クラス</u>" as k0 {
 
+}
 
+object "<u>注文: 注文クラス</u>" as k6{
 }
 object "<u>高田利恵: 顧客クラス</u>" as k1 {
 
@@ -19,7 +21,14 @@ object "<u>冷蔵庫:商品クラス</u>" as k4{
 object "<u>プロジェクター:商品クラス</u>" as k5{   
     型式P1122
 }
-k0--k3:２台
-k0--k4
-k1--k4
+object "<u>重要顧客:重要顧客クラス</u>" as k7{   
+    
+}
+k7--k0
+k7--k1
+k7--k2
+k0--k6
+k1--k6
+k6--k3
+k6--k4
 @enduml
