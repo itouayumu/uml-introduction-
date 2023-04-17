@@ -1,7 +1,7 @@
 @startuml
 hide footbox
-participant "データ更新コントローラ:controller" as a1
-participant "ホテル:hotel" as a2
+participant ":データ更新コントローラ" as a1<<controller>>
+participant ":ホテル" as a2<<hotel>>
 participant ":予約" as a3
 activate a1
 a1->a2:予約操作呼び出し
