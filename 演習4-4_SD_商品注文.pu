@@ -8,9 +8,9 @@ activate a1
 a1->a2
     activate a2
        
-    a2->a3:商品情報確認()
+    a2->a3:商品情報取得()
     activate a3
-    a3-->a2:商品情報取得（）
+    a3-->>a2:商品情報
      deactivate a3
     a2->a2:商品情報表示（商品情報）
      activate a2
@@ -19,6 +19,6 @@ a1->a2
     a1->a2:
     activate a2
     create a4
-    a2->a4:<<create>>
+    a2-->>a4:<<create>>
    
 @enduml
