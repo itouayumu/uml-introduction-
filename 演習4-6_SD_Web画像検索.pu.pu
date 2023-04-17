@@ -15,6 +15,7 @@ a4->a3:画像を閲覧可能状態に変更
 deactivate a4
 a3->a2:画像ファイル再生
 deactivate a3
+a2->a1:画像表示
 deactivate a2
 deactivate a1
 @enduml
