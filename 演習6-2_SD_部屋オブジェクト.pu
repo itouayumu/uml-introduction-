@@ -1,0 +1,7 @@
+@startuml 
+left to right direction
+[*] --> 空室状態
+空室状態--> 予約状態: 予約受注
+予約状態--> 使用状態: お客様ご来店
+使用状態--> [*] 
+@enduml
