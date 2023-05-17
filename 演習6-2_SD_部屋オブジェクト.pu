@@ -1,7 +1,14 @@
 @startuml 
 left to right direction
 
-空室状態--> 予約状態: 予約受注
-予約状態--> 使用状態: お客様ご来店
-使用状態-->空室状態:　お客様ご退店
+@startuml
+state 未使用{
+
+空室状態-right-> 予約状態: 予約
+空室状態<-left- 予約状態: キャンセル
+}
+予約状態-down->使用状態: 使用開始
+使用状態-up->空室状態:　使用終了
+@enduml
+・直
 @enduml
