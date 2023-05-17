@@ -3,7 +3,7 @@ hide footbox
 Actor "<u>:客</u>" as a1
 participant "<u>:料金装置</u>" as a2
 participant "<u>:ボタン</u>" as a3
-participant "<u>:ベンダー</u>" as a4
+participant "<u>:ベンダー装置</u>" as a4
 mainframe sd 自動販売機
 
 activate a1
