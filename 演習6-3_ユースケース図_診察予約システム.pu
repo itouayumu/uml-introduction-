@@ -6,10 +6,11 @@ rectangle 診察予約システム {
 usecase 予約する as a1
 usecase 自分の順番を確認する as a2
 usecase 順番を取り消す as a3
-usecase 今の番号を変更する as a4
+usecase 今の番号を確認する as a4
 }
 user-->a1
 user-->a2
 user-->a3
 a4<--nace
+user-->a4
 @enduml
