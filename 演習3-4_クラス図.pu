@@ -1,7 +1,13 @@
 @startuml
 left to right direction
 
-class 車{}
-class タイヤ{}
-車 "1" *--"4"タイヤ
+class "車:車クラス" as a1{} 
+class "タイヤ１:タイヤクラス" as a2{} 
+class "タイヤ２:タイヤクラス" as a3{}
+class "タイヤ３:タイヤクラス" as a4{} 
+class "タイヤ４:タイヤクラス" as a5{} 
+a1  "1" *--"1"a2
+a1  "1" *--"1"a3
+a1  "1" *--"1"a4
+a1  "1" *--"1"a5
 @enduml
