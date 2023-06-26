@@ -1,21 +1,13 @@
 @startuml
 left to right direction
-object "<u>車: 車クラス</u>" as k0 {
 
-}
-object "<u>前輪１: タイヤクラス</u>" as k1 {
-
-}
-object "<u>前輪２: タイヤクラス</u>" as k2 {
-}
-object "<u>後輪１: タイヤクラス</u>" as k3 {
-}
-object "<u>後輪2: タイヤクラス</u>" as k4 {
-
-}
-
-k0 -- k1
-k0 -- k2
-k0 -- k3
-k0 -- k4
+class "車:車クラス" as a1{} 
+class "タイヤ１:タイヤクラス" as a2{} 
+class "タイヤ２:タイヤクラス" as a3{}
+class "タイヤ３:タイヤクラス" as a4{} 
+class "タイヤ４:タイヤクラス" as a5{} 
+a1  "1" *--"1"a2
+a1  "1" *--"1"a3
+a1  "1" *--"1"a4
+a1  "1" *--"1"a5
 @enduml
